@@ -38,3 +38,33 @@ print(a.replace("H", ("J")))
 #Spliing a string
 a= "Hello, World"
 print(a.split(","))
+
+#String Concatenation
+a= "Hello"
+b= "World"
+c= a +" "+ b
+print(c)
+
+#String Format
+# age= 30
+# txt= "My name is James Osolo,I am" + age
+# print(txt)= Error must be strings not integer
+
+age= 30
+txt= "My name is James Osolo,I am {}"
+print(txt.format(age))
+
+Quantity= 10
+Item= 500
+Price= 100
+
+myorder= "I want {} pieces of items {} for {} dollars"
+print(myorder.format(Quantity,Item,Price))
+
+#Escape characters
+
+# txt = "We are the so-called "Vikings" from the north."
+# print(txt) Error-Not allowed
+
+txt = "We are the so-called \"Vikings\" from the north."
+print(txt)

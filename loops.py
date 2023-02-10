@@ -52,3 +52,7 @@ if score > 80:
     print("Qualified to graduate")
 if score < 80:
     print("Not qualified to graduate")
+#data types
+#double//float
+#int//integer
+#string
